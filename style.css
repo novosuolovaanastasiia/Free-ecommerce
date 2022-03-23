@@ -1,0 +1,296 @@
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  background-color: rgb(235, 235, 235);
+}
+
+.create-account {
+  width: 540px;
+  height: 590px;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.create-account h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.name {
+  display: flex;
+  gap: 10px;
+}
+
+.first-name input,
+.last-name input{
+  width: 245px;
+  height: 38px;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-bottom: 20px;
+}
+
+.first-name,
+.last-name {
+  width: 245px;
+}
+
+label {
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+}
+
+input:hover {
+  box-shadow: 4px 4px 12px rgb(0, 183, 255);
+  border-color:rgb(0, 183, 255);
+}
+
+input:focus {
+  outline:none;
+  background:linear-gradient(90deg, rgb(0, 81, 255), rgb(0, 217, 255) ) ;
+  color: white;
+}
+
+.email input{
+  width: 500px;
+  height: 38px;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.email input:hover{
+  box-shadow: 4px 4px 12px rgb(0, 183, 255);
+  border-color: rgb(0, 183, 255);
+}
+
+.email p{
+  font-size: 13px;
+  color: rgb(175, 175, 175);
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.sex {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.sex input{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.sex input:hover{
+  box-shadow: none;
+}
+
+#female {
+  margin-left: 20px;
+}
+
+.sex {
+  margin-bottom: 20px;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+}
+
+.city input{
+  width: 245px;
+  height: 38px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.city {
+  width: 245px;
+}
+
+.country {
+  width: 245px;
+}
+
+.country select {
+  width: 245px;
+  height: 38px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  color: gray;
+}
+
+select:hover {
+  box-shadow: 4px 4px 12px rgb(0, 183, 255);
+  border-color:rgb(0, 183, 255);
+}
+
+select:focus {
+  outline:none;
+  background:linear-gradient(90deg, rgb(0, 81, 255), rgb(0, 217, 255) ) ;
+  color: white;
+}
+
+#comment {
+  width: 500px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+#comment:hover {
+  box-shadow: 4px 4px 12px rgb(0, 183, 255);
+  border-color:rgb(0, 183, 255);
+}
+
+#comment:focus {
+  outline:none;
+  background:linear-gradient(90deg, rgb(0, 81, 255), rgb(0, 217, 255) ) ;
+  color: white;
+}
+
+.sign-up p{
+  font-size: 13px;
+  width: 410px;
+  height: 36px;
+  line-height: 18px;
+  color: rgb(175, 175, 175);
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sign-up a{
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+}
+
+.sign-up hr{
+  border-color: rgb(255, 253, 253);
+  width: 500px;
+  margin-left: 0;
+}
+
+.log-in p {
+  margin: 20px 0px 30px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(90, 90, 90);
+}
+
+.log-in a{
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  font-weight: 600;
+}
+
+.profile {
+  width: 540px;
+  height: 590px;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.profile h2{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.photo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.photo>img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.picture .camera {
+  width: 138px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-right: 10px;
+}
+
+.camera img{
+  transform: translate(115px, 6px);
+}
+
+.camera-trash {
+  display: flex;
+  height: 39px;
+}
+
+.camera-trash button{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+  transform: translateY(13px);
+}
+
+.picture p{
+  font-size: 13px;
+  line-height: 18px;
+  color: rgb(175, 175, 175);
+}
+
+.number {
+  display: flex;
+  gap: 10px;
+}
+
+.zip-code {
+  width: 245px;
+}
+
+.phone-number {
+  width: 245px;
+}
+
+.zip-code input,
+.phone-number input{
+  width: 245px;
+  height: 38px;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-bottom: 20px;
+}
+
+#something {
+  width: 150px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+}
